@@ -1,13 +1,12 @@
 .body-color {
     background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
-    height: 100vh;
 }
 
 
 /*NAV BAR*/
 
 .bootstrap-container{
-    background-color: aqua;
+    height: 97vh;
 }
 
 .navbar{
@@ -21,6 +20,7 @@
 }
 
 .sfhacks{
+    text-align: center;
     font-size: 50px;
     margin-top: 6%;
     font-family:inherit;
@@ -33,7 +33,7 @@
     font-family: inherit;
     font-weight: 300;
     color: whitesmoke;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 
@@ -94,11 +94,6 @@
 
 }
 
-.bootstrap-container{
-    background-color: pink;
-    height: 120vh;
-
-}
 
 /*
 .sponsors-container{
@@ -227,7 +222,7 @@
     width: 100%;
     background-color: ghostwhite;
     text-align: center;
-    height: 43px;
+    height: 50px;
 }
 
 .padding{
@@ -238,7 +233,9 @@
 }
 
 .icon-margin{
-    margin-top: .6%;
+    position: relative;
+    margin-top: .9%;
+    margin-bottom: .5%;
     padding-left: 7%;
     padding-right: 10% ;
 }
@@ -250,4 +247,5 @@
 .arrow {
     margin-top: 5%;
     font-size: 50px;
+    padding-bottom: 20px;
 }
