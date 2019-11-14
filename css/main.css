@@ -1,0 +1,334 @@
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  background-color: clear;
+}
+
+
+.navbar-font{
+  margin-top: -1%;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: inherit;
+}
+
+
+.centered-text{
+  text-align: center;
+
+}
+
+.nav-center{
+  margin-right: 1in;
+}
+
+
+
+/*NAV BAR*/
+
+.body-color {
+  background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+}
+
+
+
+.bootstrap-container{
+  height: 100vh;
+}
+
+
+.website-title{
+  font-family: inherit;
+  font-size: 59px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.logo{
+  display: block;
+  margin-right: .8in;
+  height: 150px;
+  width: 150px;
+  padding: 1rem
+
+}
+
+.nav-marg{
+   margin-top: -93px;
+ }
+
+.nav-marg2{
+  margin-top: -40px;
+}
+
+/*.title{
+  display:
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}*/
+
+.flex{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 48rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  margin-bottom: auto ;
+  padding: .7in;
+  overflow: hidden;
+
+}
+
+h1{
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  color:#de6954;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.place{
+  font-family: "Helvetica Neue";
+  letter-spacing: .28em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 10px;
+}
+
+.date{
+  font-family: "Helvetica Neue";
+  letter-spacing: .25em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+
+/*This is coded CSS rainbow*/
+
+.rainbow:hover {
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+}
+@keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+}
+
+.button{
+  border-radius: 28px;
+  border-size: 6px;
+  border-color: #de6954;
+  background: transparent;
+  color: white;
+  margin-top: 7px;
+  height: 50px;
+  width: 200px;
+  cursor:pointer;
+
+}
+
+/* ABOUT */
+
+.bgpic {
+  position: relative;
+
+}
+
+.bg {
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  opacity: .4 ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+}
+.h2{
+  solid-opacity: 7%;
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  color:#de6954;
+  font-size: 5vw;
+  font-weight: 700;
+  margin-top: 30px;
+
+}
+
+.about{
+   overflow-x: scroll;
+  margin-top: 90px;
+ }
+
+.aboutp{
+  width: 100%;
+  height: 40vh;
+  line-height: .4in;
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: justify-all;
+
+}
+
+.sponsors{
+  display: block;
+  width: 76%;
+  height: 70%;
+  justify-content: inherit;
+  align-items: inherit; /* HELPED FOR RESIZING AND FITTING TO SCREEN*/
+
+}
+
+.h1{
+  solid-opacity: 7%;
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  color:#de6954;
+  font-size: 4vw;
+  font-weight: 700;
+  margin-top: 120px;
+}
+
+.h1spo{
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 50px;
+}
+
+/* FOOTER */
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section {
+  width: 92%;
+  /* max-width: var(--ch-maxWidth); */
+  margin: 1px auto;
+  padding-right: .5in;
+  text-align: inherit;
+}
+
+.footercon{
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  flex-grow: 1;
+}
+
+.footercol {
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin:auto;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row-reverse;
+  color: #de6954;
+  font-weight: 400 ;
+  padding-right: .2in;
+  padding-left: .2in;
+  padding-top: .2in;
+}
+
+/* FAQ */
+
+.flex-container {
+  margin-top: 120px;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+  overflow-x: scroll;
+  height: 100vh;
+}
+
+.flex-item {
+  background: #de6954;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+}
