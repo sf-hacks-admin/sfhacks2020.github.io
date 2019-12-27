@@ -15,14 +15,14 @@ class Main extends Component {
   };
   render() {
     return (
-      <div className="body-color ">
+      <div className="body-color main-disp">
         <Nbar />
 
         <div className="row">
           {/* <HomeComponent /> */}
           <Home />
         </div>
-        <div className="">
+        <div className="row">
           <About />
         </div>
         <FAQ />
