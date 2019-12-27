@@ -17,8 +17,6 @@ class About extends Component {
   };
 
   render() {
-    const isMobile = window.innerWidth <= 500;
-
     return (
       <div className="team-image-bg body-color col ">
         <div

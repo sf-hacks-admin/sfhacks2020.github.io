@@ -10,12 +10,10 @@ import Footer from "./Footer";
 
 class Main extends Component {
   state = {};
-  componentDidMount = () => {
-    console.log("here");
-  };
+
   render() {
     return (
-      <div className="body-color main-disp">
+      <div className="body-color">
         <Nbar />
 
         <div className="row">
@@ -25,9 +23,11 @@ class Main extends Component {
         <div className="row">
           <About />
         </div>
-        <FAQ />
-        <Sponsorship />
-        <Footer />
+        <div className="row">
+          <FAQ />
+        </div>
+        {/* <Sponsorship />
+        <Footer /> */}
       </div>
     );
   }
