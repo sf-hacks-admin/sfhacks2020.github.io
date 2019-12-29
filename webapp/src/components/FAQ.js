@@ -3,19 +3,18 @@ import FAQcard from "./helper/FAQcard";
 class FAQ extends Component {
   state = {};
   render() {
-    
     return (
       <div
         className="row align-items-center"
         style={{
-          marginTop: "20px",
+          marginTop: "30px",
           overflow: "auto",
           minHeight: "100vh",
           justifyContent: "center",
           alignContent: "center"
         }}
       >
-        <div style={{ marginBottom: "20px" }}>
+        <div style={{ marginBottom: "20px", marginTop: "20px" }}>
           <h1 className="h1" style={{ textAlign: "center" }}>
             FAQ
           </h1>

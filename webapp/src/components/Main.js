@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import Navbar from "./CustNavbar";
 import Nbar from "./Nbar";
 import Home from "./Home";
-import HomeComponent from "./HomeComponent";
+
 import About from "./About";
 import FAQ from "./FAQ";
 import Sponsorship from "./Sponsorship";
@@ -17,17 +17,23 @@ class Main extends Component {
         <Nbar />
 
         <div className="row">
-          {/* <HomeComponent /> */}
+          <a id="homecomponent" />
           <Home />
         </div>
         <div className="row">
+          <a id="aboutcomponent" />
           <About />
         </div>
         <div className="row">
+          <a id="faqcomponent" />
           <FAQ />
         </div>
-        {/* <Sponsorship />
-        <Footer /> */}
+        <div className="row align-items-start">
+          <a id="sponsorshipcomponent" />
+          <Sponsorship />
+        </div>
+
+        <Footer />
       </div>
     );
   }

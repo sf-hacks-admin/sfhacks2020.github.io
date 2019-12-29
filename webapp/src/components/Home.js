@@ -5,6 +5,7 @@ class Home extends Component {
     const SFHACKS = "< SF Hacks >";
     return (
       <div className="flex">
+      
         <img src="./../assets/Logo.png" alt="Logo" className="logo2" />
 
         <h1 className="rainbow">{SFHACKS}</h1>
