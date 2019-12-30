@@ -36,7 +36,7 @@ class Footer extends Component {
                 style={{ cursor: "pointer", width: "15%", minWidth: "50px" }}
               >
                 <img
-                  src="./../assets/Logo.png"
+                  src="./../assets/logo.png"
                   alt="Logo"
                   className="logofooter"
                 />

@@ -7,7 +7,7 @@ class Home extends Component {
 
     return (
       <div className="flex" style={{ overflow: "auto", minHeight: "100vh" }}>
-        <img src="./../assets/Logo.png" alt="Logo" className="logo2" />
+        <img src="./../assets/logo.png" alt="Logo" className="logo2" />
 
         <h1>{SFHACKS}</h1>
 
