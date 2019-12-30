@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 class About extends Component {
   componentDidMount = () => {
@@ -28,8 +29,9 @@ class About extends Component {
         >
           <article className="about">
             <h2 className="h2"> Who Are We?</h2>
-
-            <div className="aboutp">{this.state.abouttext}</div>
+            <Fade big bottom>
+              <div className="aboutp">{this.state.abouttext}</div>
+            </Fade>
           </article>
         </div>
       </div>

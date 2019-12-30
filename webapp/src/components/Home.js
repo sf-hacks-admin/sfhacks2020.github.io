@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
+import styled, { keyframes } from "styled-components";
+import { pulse } from "react-animations";
+
+const pulseAnimation = keyframes`${pulse}`;
+
+const PulseDiv = styled.div`
+  animation: 3s ${pulseAnimation};
+`;
 
 class Home extends Component {
   render() {
@@ -9,7 +17,9 @@ class Home extends Component {
       <div className="flex" style={{ overflow: "auto", minHeight: "100vh" }}>
         <img src="./../assets/logo.png" alt="Logo" className="logo2" />
 
-        <h1>{SFHACKS}</h1>
+        <PulseDiv>
+          <h1>{SFHACKS}</h1>
+        </PulseDiv>
 
         <p className="place">
           San Francisco State University

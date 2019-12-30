@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/sfhacks2020.github.io/static/css/main.ecce7fc3.chunk.css",
-    "main.js": "/sfhacks2020.github.io/static/js/main.ee1a33f1.chunk.js",
-    "main.js.map": "/sfhacks2020.github.io/static/js/main.ee1a33f1.chunk.js.map",
+    "main.js": "/sfhacks2020.github.io/static/js/main.91302a14.chunk.js",
+    "main.js.map": "/sfhacks2020.github.io/static/js/main.91302a14.chunk.js.map",
     "runtime-main.js": "/sfhacks2020.github.io/static/js/runtime-main.6f7aa6c9.js",
     "runtime-main.js.map": "/sfhacks2020.github.io/static/js/runtime-main.6f7aa6c9.js.map",
     "static/css/2.6f28b933.chunk.css": "/sfhacks2020.github.io/static/css/2.6f28b933.chunk.css",
-    "static/js/2.5ba9ba4f.chunk.js": "/sfhacks2020.github.io/static/js/2.5ba9ba4f.chunk.js",
-    "static/js/2.5ba9ba4f.chunk.js.map": "/sfhacks2020.github.io/static/js/2.5ba9ba4f.chunk.js.map",
+    "static/js/2.2a477a39.chunk.js": "/sfhacks2020.github.io/static/js/2.2a477a39.chunk.js",
+    "static/js/2.2a477a39.chunk.js.map": "/sfhacks2020.github.io/static/js/2.2a477a39.chunk.js.map",
     "index.html": "/sfhacks2020.github.io/index.html",
-    "precache-manifest.8d869db8c231098a90a866e873c0e0d6.js": "/sfhacks2020.github.io/precache-manifest.8d869db8c231098a90a866e873c0e0d6.js",
+    "precache-manifest.3f14f1b006ef1826b44108f99685d3f4.js": "/sfhacks2020.github.io/precache-manifest.3f14f1b006ef1826b44108f99685d3f4.js",
     "service-worker.js": "/sfhacks2020.github.io/service-worker.js",
     "static/css/2.6f28b933.chunk.css.map": "/sfhacks2020.github.io/static/css/2.6f28b933.chunk.css.map",
     "static/css/main.ecce7fc3.chunk.css.map": "/sfhacks2020.github.io/static/css/main.ecce7fc3.chunk.css.map",
-    "static/js/2.5ba9ba4f.chunk.js.LICENSE": "/sfhacks2020.github.io/static/js/2.5ba9ba4f.chunk.js.LICENSE",
+    "static/js/2.2a477a39.chunk.js.LICENSE": "/sfhacks2020.github.io/static/js/2.2a477a39.chunk.js.LICENSE",
     "static/media/font-awesome.min.css": "/sfhacks2020.github.io/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/App.css": "/sfhacks2020.github.io/static/media/sfhacksteam.b6ccfde4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6f7aa6c9.js",
     "static/css/2.6f28b933.chunk.css",
-    "static/js/2.5ba9ba4f.chunk.js",
+    "static/js/2.2a477a39.chunk.js",
     "static/css/main.ecce7fc3.chunk.css",
-    "static/js/main.ee1a33f1.chunk.js"
+    "static/js/main.91302a14.chunk.js"
   ]
 }
