@@ -5,15 +5,7 @@ import {
   faFacebook,
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { Link } from "react-scroll";
 class Footer extends Component {
   state = {};
   render() {
@@ -25,7 +17,8 @@ class Footer extends Component {
             margin: "5px",
             padding: "10px",
             minHeight: "150px",
-            height: "1.2vw"
+            height: "auto",
+            marginBottom: "0"
           }}
         >
           <div className="col-3">
@@ -33,6 +26,22 @@ class Footer extends Component {
               <a href="#" className="footericons" target="_blank">
                 {"<SF Hacks>"}
               </a> */}
+            <div className="row align-items-center " style={{ padding: "0" }}>
+              <Link
+                activeClass="active"
+                to="homecomponent"
+                spy={true}
+                smooth={true}
+                duration={500}
+                style={{ cursor: "pointer", width: "15%", minWidth: "50px" }}
+              >
+                <img
+                  src="./../assets/Logo.png"
+                  alt="Logo"
+                  className="logofooter"
+                />
+              </Link>
+            </div>
             <div className="row align-items-center">
               <Link
                 className="sfhackstext"
@@ -43,7 +52,7 @@ class Footer extends Component {
                 duration={500}
                 style={{ cursor: "pointer" }}
               >
-                {"<SF Hacks>"}
+                {"SF Hacks"}
               </Link>
             </div>
             <div className="row align-items-center">
@@ -75,11 +84,12 @@ class Footer extends Component {
             style={{ textAlign: "center" }}
           >
             <div className="row">
-              <div className="col-sm-9">
-                San Francisco State University | 1600 Holloway Avenue . San
-                Francisco . CA 94132
+              <div className="col-sm-9 align-self-center">
+                San Francisco State University
+                <br /> 1600 Holloway Avenue, <br />
+                San Francisco, CA 94132
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-3 align-self-center">
                 <span style={{ fontWeight: "700", fontSize: "19px" }}>
                   Contact us
                 </span>
@@ -87,7 +97,7 @@ class Footer extends Component {
                 Feel free to reach out to us at{" "}
                 <a
                   href="mailto:sfhacksteam@gmail.com"
-                  style={{ color: "#de6954" }}
+                  style={{ color: "#642c8f" }}
                 >
                   sfhacksteam@gmail.com
                 </a>{" "}

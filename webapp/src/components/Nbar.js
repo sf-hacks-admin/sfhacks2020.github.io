@@ -1,28 +1,7 @@
 import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from "reactstrap";
-import { duration } from "@material-ui/core";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
+
+import { Link } from "react-scroll";
 
 const Nbar = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,11 +21,11 @@ const Nbar = props => {
   return (
     <Navbar
       id="navbarr"
-      color="white"
+      // color="rgba(251, 175, 65, 1)"
       light
       expand="md"
       fixed="top"
-      style={{ margin: "0" }}
+      style={{ margin: "0", backgroundColor: "rgba(251, 175, 65, 0.8)" }}
     >
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
@@ -60,7 +39,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#de6954" }}
+              style={{ cursor: "pointer", color: "#642c8f" }}
             >
               Home
             </Link>
@@ -74,7 +53,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#de6954" }}
+              style={{ cursor: "pointer", color: "#642c8f" }}
             >
               About
             </Link>
@@ -88,7 +67,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#de6954" }}
+              style={{ cursor: "pointer", color: "#642c8f" }}
             >
               FAQ
             </Link>
@@ -102,7 +81,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#de6954" }}
+              style={{ cursor: "pointer", color: "#642c8f" }}
             >
               Sponsorship
             </Link>

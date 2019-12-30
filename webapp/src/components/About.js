@@ -3,7 +3,10 @@ import React, { Component } from "react";
 class About extends Component {
   componentDidMount = () => {
     if (window.innerWidth <= 500) {
-      this.setState({ abouttext: "SFHACKS ABOUT HERE" });
+      this.setState({
+        abouttext:
+          "SF Hacks is San Francisco's largest collegiate hackathon, where over 500 collegiate engineers, designers and developers are given the opportunity to create, learn and experiment, and turn cutting-edge ideas into reality."
+      });
     }
   };
   state = {

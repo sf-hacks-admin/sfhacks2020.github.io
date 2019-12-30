@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
-import Icon from "@material-ui/core/Icon";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Sponsorship extends Component {
@@ -9,27 +8,31 @@ class Sponsorship extends Component {
     return (
       <div
         className="col-12 align-self-center"
-        style={{ height: "100vh", marginTop: "20px" }}
+        style={{ overflow: "auto", marginTop: "20px" }}
       >
         <div
           className="flex"
           style={{
             paddingTop: "5px",
             paddingBottom: "10px",
-            maxWidth: "100vw",
-            maxHeight: "100vh",
+            // maxWidth: "100vw",
+            // maxHeight: "100vh",
             minHeight: "100vh"
           }}
         >
-          <img className="sponsors" src="./../assets/Sponsors.png" />
+          <div style={{ marginBottom: "20px", marginTop: "20px" }}>
+            <h1 className="h1" style={{ textAlign: "center" }}>
+              2019 SPONSORS
+            </h1>
+          </div>
+          <div style={{ objectFit: "contain" }}></div>
           <form action="mailto:sfhacksteam@gmail.com" method="GET">
             <Button
               variant="contained"
-              color="#f2c2ba"
               type="submit"
               value="Send"
               style={{
-                background: "#f2c2ba"
+                background: "#c1aad2"
               }}
             >
               Interested in sponsoring?
@@ -40,7 +43,6 @@ class Sponsorship extends Component {
               />
             </Button>
           </form>
-
           {/* <div className="sponsorstext">
             Interested in sponsoring? E-mail us at{" "}
             <a href="mailto:sfhacksteam@gmail.com" target="_blank">

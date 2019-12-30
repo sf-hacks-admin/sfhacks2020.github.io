@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-// import Navbar from "./CustNavbar";
 import Nbar from "./Nbar";
 import Home from "./Home";
-
 import About from "./About";
 import FAQ from "./FAQ";
 import Sponsorship from "./Sponsorship";
@@ -17,19 +15,27 @@ class Main extends Component {
         <Nbar />
 
         <div className="row">
-          <a id="homecomponent" />
+          <a href="/#" id="homecomponent">
+            {null}
+          </a>
           <Home />
         </div>
         <div className="row">
-          <a id="aboutcomponent" />
+          <a href="/#" id="aboutcomponent">
+            {null}
+          </a>
           <About />
         </div>
         <div className="row">
-          <a id="faqcomponent" />
+          <a href="/#" id="faqcomponent">
+            {null}
+          </a>
           <FAQ />
         </div>
         <div className="row align-items-start">
-          <a id="sponsorshipcomponent" />
+          <a href="/#" id="sponsorshipcomponent">
+            {null}
+          </a>
           <Sponsorship />
         </div>
 
