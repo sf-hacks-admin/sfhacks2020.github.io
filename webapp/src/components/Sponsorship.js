@@ -25,7 +25,13 @@ class Sponsorship extends Component {
               2019 SPONSORS
             </h1>
           </div>
-          <div style={{ objectFit: "contain" }}></div>
+          <div style={{ objectFit: "contain" }}>
+            <img
+              className="sponsors"
+              src="./../assets/Sponsors.png"
+              alt="2019 SPONSORS"
+            />
+          </div>
           <form action="mailto:sfhacksteam@gmail.com" method="GET">
             <Button
               variant="contained"
