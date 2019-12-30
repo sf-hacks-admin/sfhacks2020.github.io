@@ -15,8 +15,6 @@ class Sponsorship extends Component {
           style={{
             paddingTop: "5px",
             paddingBottom: "10px",
-            // maxWidth: "100vw",
-            // maxHeight: "100vh",
             minHeight: "100vh"
           }}
         >
@@ -28,6 +26,7 @@ class Sponsorship extends Component {
           <div style={{ objectFit: "contain" }}>
             <img
               className="sponsors"
+
               src="./../assets/Sponsors.png"
               alt="2019 SPONSORS"
             />
