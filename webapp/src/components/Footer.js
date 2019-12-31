@@ -86,6 +86,8 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-9 align-self-center">
                 San Francisco State University
+                <br />
+                STUDENT ACITIVITES AND EVENTS CENTER (ANNEX I),
                 <br /> 1600 Holloway Avenue, <br />
                 San Francisco, CA 94132
               </div>
@@ -97,11 +99,11 @@ class Footer extends Component {
                 Feel free to reach out to us at{" "}
                 <a
                   href="mailto:sfhacksteam@gmail.com"
-                  style={{ color: "#642c8f" }}
+                  style={{ color: "#632b90" }}
                 >
                   sfhacksteam@gmail.com
                 </a>{" "}
-                for any further questions or quarries
+                for any further questions or queries
               </div>
             </div>
           </div>

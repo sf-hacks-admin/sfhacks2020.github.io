@@ -18,11 +18,14 @@ class Home extends Component {
         <img src="./../assets/logo.png" alt="Logo" className="logo2" />
 
         <PulseDiv>
-          <h1>{SFHACKS}</h1>
+          <h1 className="sfhacksheading" style={{ fontSize: "xxx-large" }}>
+            {SFHACKS}
+          </h1>
         </PulseDiv>
 
         <p className="place">
           San Francisco State University
+          <br /> Student Acitivites and Events Center (Annex I)
           <br /> San Francisco, California
         </p>
 
@@ -30,7 +33,7 @@ class Home extends Component {
           March 28 - 29<sup>th</sup>, 2020
         </p>
         <p className="place">
-          Application deadline: Feb 21<sup>st</sup> 2020
+          Application deadline: Feb 21<sup>st</sup>, 2020
         </p>
         {/* <div className="row">Apply Now!</div> */}
         <div className="row">
@@ -45,7 +48,7 @@ class Home extends Component {
                   type="submit"
                   value="Send"
                   style={{
-                    background: "#c1aad2"
+                    background: "rgba(253, 223, 179, 0.8)"
                   }}
                 >
                   Participant
@@ -59,7 +62,7 @@ class Home extends Component {
                   type="submit"
                   value="Send"
                   style={{
-                    background: "#c1aad2"
+                    background: "rgba(253, 223, 179, 0.8)"
                   }}
                 >
                   Mentors
@@ -73,7 +76,7 @@ class Home extends Component {
                   type="submit"
                   value="Send"
                   style={{
-                    background: "#c1aad2"
+                    background: "rgba(253, 223, 179, 0.8)"
                   }}
                 >
                   Volunteers

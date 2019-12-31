@@ -16,7 +16,10 @@ class FAQ extends Component {
         }}
       >
         <div style={{ marginBottom: "20px", marginTop: "20px" }}>
-          <h1 className="h1" style={{ textAlign: "center" }}>
+          <h1
+            className="subheadings"
+            style={{ textAlign: "center", fontSize: "xxx-large" }}
+          >
             FAQ
           </h1>
         </div>

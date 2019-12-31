@@ -8,14 +8,14 @@ class FAQcard extends Component {
   state = {};
   render() {
     return (
-      
-        <Card style={{ backgroundColor: "rgba(253,253,253,0.2)" }}>
-          <CardContent>
-            <div className="ques">{this.props.question}</div>
-            <div className="faqtext">{this.props.text}</div>
-          </CardContent>
-        </Card>
-      
+      <Card
+        style={{ backgroundColor: "rgba(253,253,253,0.2)", color: "white" }}
+      >
+        <CardContent>
+          <div className="ques">{this.props.question}</div>
+          <div className="faqtext">{this.props.text}</div>
+        </CardContent>
+      </Card>
     );
   }
 }

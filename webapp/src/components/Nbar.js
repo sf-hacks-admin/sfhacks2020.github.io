@@ -25,10 +25,16 @@ const Nbar = props => {
       light
       expand="md"
       fixed="top"
-      style={{ margin: "0", backgroundColor: "rgba(251, 175, 65, 0.8)" }}
+      style={{
+        margin: "0",
+        backgroundColor: "RGB(99, 43, 142,0.65)",
+        fontFamily: "Helvetica Neue",
+        letterSpacing: "0.15em",
+        lineHeight: "1.00"
+      }}
     >
       <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar>
+      <Collapse isOpen={isOpen} navbar style={{ marginTop: "10px" }}>
         <Nav className="mr-auto" navbar>
           <NavItem className="NavItemStyle">
             <Link
@@ -39,7 +45,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#642c8f" }}
+              style={{ cursor: "pointer", color: "#fbaf41" }}
             >
               Home
             </Link>
@@ -53,7 +59,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#642c8f" }}
+              style={{ cursor: "pointer", color: "#fbaf41" }}
             >
               About
             </Link>
@@ -67,7 +73,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#642c8f" }}
+              style={{ cursor: "pointer", color: "#fbaf41" }}
             >
               FAQ
             </Link>
@@ -81,7 +87,7 @@ const Nbar = props => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer", color: "#642c8f" }}
+              style={{ cursor: "pointer", color: "#fbaf41" }}
             >
               Sponsorship
             </Link>

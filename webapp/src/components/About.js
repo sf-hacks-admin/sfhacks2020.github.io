@@ -28,7 +28,7 @@ class About extends Component {
           style={{ padding: "0.5vw", height: "100vh", minHeight: "400px" }}
         >
           <article className="about">
-            <h2 className="h2"> Who Are We?</h2>
+            <h1 className="subheadings" style={{ fontSize: "xxx-large"}}> Who Are We?</h1>
             <Fade big bottom>
               <div className="aboutp">{this.state.abouttext}</div>
             </Fade>

@@ -19,14 +19,16 @@ class Sponsorship extends Component {
           }}
         >
           <div style={{ marginBottom: "20px", marginTop: "20px" }}>
-            <h1 className="h1" style={{ textAlign: "center" }}>
+            <h1
+              className="subheadings"
+              style={{ textAlign: "center", fontSize: "xxx-large" }}
+            >
               2019 SPONSORS
             </h1>
           </div>
           <div style={{ objectFit: "contain" }}>
             <img
               className="sponsors"
-
               src="./../assets/Sponsors.png"
               alt="2019 SPONSORS"
             />
@@ -37,7 +39,7 @@ class Sponsorship extends Component {
               type="submit"
               value="Send"
               style={{
-                background: "#c1aad2"
+                background: "rgba(253, 223, 179, 0.8)"
               }}
             >
               Interested in sponsoring?
