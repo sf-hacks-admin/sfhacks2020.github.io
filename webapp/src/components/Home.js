@@ -25,7 +25,7 @@ class Home extends Component {
 
         <p className="place">
           San Francisco State University
-          <br /> Student Acitivites and Events Center (Annex I)
+          <br /> Student Activities and Events Center (Annex I)
           <br /> San Francisco, California
         </p>
 
