@@ -100,7 +100,9 @@ class FAQ extends Component {
                       Event, so that means we follow the{" "}
                       <a
                         href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "#632b90" }}
                       >
                         MLH Code Of Conduct
                       </a>
