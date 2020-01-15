@@ -9,7 +9,11 @@ class FAQcard extends Component {
   render() {
     return (
       <Card
-        style={{ backgroundColor: "rgba(253,253,253,0.2)", color: "white" }}
+        style={{
+          backgroundColor: "rgba(253,253,253,0.2)",
+          color: "white",
+          minHeight: "100px"
+        }}
       >
         <CardContent>
           <div className="ques">{this.props.question}</div>

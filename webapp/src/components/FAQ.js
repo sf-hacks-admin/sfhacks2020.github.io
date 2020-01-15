@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import FAQcard from "./helper/FAQcard";
 import Fade from "react-reveal/Fade";
+
+import Card from "@material-ui/core/Card";
+
+import CardContent from "@material-ui/core/CardContent";
 class FAQ extends Component {
   state = {};
   render() {
@@ -81,10 +85,28 @@ class FAQ extends Component {
               style={{ marginBottom: "5vh" }}
             >
               <Fade big>
-                <FAQcard
-                  question="WHAT IS MAJOR LEAGUE HACKING"
-                  text="Major League Hacking (MLH) is the official student hackathon league. SF Hacks is an official MLH Member Event, so that means we follow the MLH Code Of Conduct."
-                />
+                <Card
+                  style={{
+                    backgroundColor: "rgba(253,253,253,0.2)",
+                    color: "white",
+                    minHeight: "100px"
+                  }}
+                >
+                  <CardContent>
+                    <div className="ques">WHAT IS MAJOR LEAGUE HACKING</div>
+                    <div className="faqtext">
+                      Major League Hacking (MLH) is the official student
+                      hackathon league. SF Hacks is an official MLH Member
+                      Event, so that means we follow the{" "}
+                      <a
+                        href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                        target="_blank" rel="noopener noreferrer"
+                      >
+                        MLH Code Of Conduct
+                      </a>
+                    </div>
+                  </CardContent>
+                </Card>
               </Fade>
             </div>
             <div

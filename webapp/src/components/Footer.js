@@ -56,21 +56,25 @@ class Footer extends Component {
               </Link>
             </div>
             <div className="row align-items-center">
-              <a href="https://facebook.com/sfhacks">
+              <a href="https://facebook.com/sfhacks" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon
                   className="icon-margin footericons"
                   icon={faFacebook}
                   size="lg"
                 />
               </a>
-              <a href="https://twitter.com/SF_hacks">
+              <a href="https://twitter.com/SF_hacks" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon
                   className="icon-margin footericons"
                   icon={faTwitter}
                   size="lg"
                 />
               </a>
-              <a href="https://instagram.com/sf.hacks" id="insta">
+              <a
+                href="https://instagram.com/sf.hacks"
+                target="_blank" rel="noopener noreferrer"
+                id="insta"
+              >
                 <FontAwesomeIcon
                   className="icon-margin footericons"
                   icon={faInstagram}
