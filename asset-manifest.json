@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sfhacks2020.github.io/static/css/main.15be24a3.chunk.css",
-    "main.js": "/sfhacks2020.github.io/static/js/main.24291452.chunk.js",
-    "main.js.map": "/sfhacks2020.github.io/static/js/main.24291452.chunk.js.map",
+    "main.css": "/sfhacks2020.github.io/static/css/main.45ae2a52.chunk.css",
+    "main.js": "/sfhacks2020.github.io/static/js/main.3ac293cb.chunk.js",
+    "main.js.map": "/sfhacks2020.github.io/static/js/main.3ac293cb.chunk.js.map",
     "runtime-main.js": "/sfhacks2020.github.io/static/js/runtime-main.6f7aa6c9.js",
     "runtime-main.js.map": "/sfhacks2020.github.io/static/js/runtime-main.6f7aa6c9.js.map",
     "static/css/2.6f28b933.chunk.css": "/sfhacks2020.github.io/static/css/2.6f28b933.chunk.css",
     "static/js/2.155c8189.chunk.js": "/sfhacks2020.github.io/static/js/2.155c8189.chunk.js",
     "static/js/2.155c8189.chunk.js.map": "/sfhacks2020.github.io/static/js/2.155c8189.chunk.js.map",
     "index.html": "/sfhacks2020.github.io/index.html",
-    "precache-manifest.e75b11d664e325f6df05e2714a3442fb.js": "/sfhacks2020.github.io/precache-manifest.e75b11d664e325f6df05e2714a3442fb.js",
+    "precache-manifest.238e0d1f2bacd8abb71a7779cf15ce39.js": "/sfhacks2020.github.io/precache-manifest.238e0d1f2bacd8abb71a7779cf15ce39.js",
     "service-worker.js": "/sfhacks2020.github.io/service-worker.js",
     "static/css/2.6f28b933.chunk.css.map": "/sfhacks2020.github.io/static/css/2.6f28b933.chunk.css.map",
-    "static/css/main.15be24a3.chunk.css.map": "/sfhacks2020.github.io/static/css/main.15be24a3.chunk.css.map",
+    "static/css/main.45ae2a52.chunk.css.map": "/sfhacks2020.github.io/static/css/main.45ae2a52.chunk.css.map",
     "static/js/2.155c8189.chunk.js.LICENSE": "/sfhacks2020.github.io/static/js/2.155c8189.chunk.js.LICENSE",
     "static/media/font-awesome.min.css": "/sfhacks2020.github.io/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/App.css": "/sfhacks2020.github.io/static/media/sfhacksteam.b6ccfde4.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.6f7aa6c9.js",
     "static/css/2.6f28b933.chunk.css",
     "static/js/2.155c8189.chunk.js",
-    "static/css/main.15be24a3.chunk.css",
-    "static/js/main.24291452.chunk.js"
+    "static/css/main.45ae2a52.chunk.css",
+    "static/js/main.3ac293cb.chunk.js"
   ]
 }

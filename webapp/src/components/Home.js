@@ -33,7 +33,7 @@ class Home extends Component {
           March 28 - 29<sup>th</sup>, 2020
         </p>
         <p className="place">
-          Application deadline: Feb 21<sup>st</sup>, 2020
+          Application deadline: Mar 15<sup>th</sup>, 2020
         </p>
         {/* <div className="row">Apply Now!</div> */}
         <div className="row">
