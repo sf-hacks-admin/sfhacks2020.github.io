@@ -46,13 +46,13 @@ class Sponsorship extends Component {
                 justifyContent: "center"
               }}
             >
-              {/* <div className="col-sm-4 sponsor-logo-md">
+              <div className="col-sm-4 sponsor-logo-md">
                 <img
-                  src="/assets/Logos 2020/WW Logo.png "
+                  src="/assets/Logos 2020/Innovation and Entrepreneurship logo.png "
                   alt="sponsor-logo"
                   className="sponsor-logo-img"
                 />
-              </div> */}
+              </div>
               <div className="col-sm-4 sponsor-logo-md">
                 <img
                   src="/assets/Logos 2020/Pathrise Logo.png "
@@ -118,25 +118,25 @@ class Sponsorship extends Component {
               </div>
               <div className="col-sm-2 sponsor-logo-sm">
                 <img
-                  src="/assets/Logos 2020/sticker mule logo.png "
+                  src="/assets/Logos 2020/sticker mule logo1.png "
                   alt="sponsor-logo"
                   className="sponsor-logo-img-sm"
                 />
               </div>
-              <div className="col-sm-2 sponsor-logo-sm">
+              {/* <div className="col-sm-2 sponsor-logo-sm">
                 <img
                   src="/assets/Logos 2020/Bare Logo.jpg "
                   alt="sponsor-logo"
                   className="sponsor-logo-img-sm"
                 />
-              </div>
-              <div className="col-sm-2 sponsor-logo-sm">
+              </div> */}
+              {/* <div className="col-sm-2 sponsor-logo-sm">
                 <img
-                  src="/assets/Logos 2020/Bobo's Logo.png "
+                  src="/assets/Logos 2020/Bobo's Logo1.png "
                   alt="sponsor-logo"
                   className="sponsor-logo-img-sm"
                 />
-              </div>
+              </div> */}
             </div>
             <div
               className="row"
@@ -151,20 +151,20 @@ class Sponsorship extends Component {
                   className="sponsor-logo-img-sm"
                 />
               </div>
-              <div className="col-sm-4 sponsor-logo-sm">
+              {/* <div className="col-sm-4 sponsor-logo-sm">
                 <img
                   src="/assets/Logos 2020/Desmos Logo.png "
                   alt="sponsor-logo"
                   className="sponsor-logo-img-sm"
                 />
-              </div>
-              <div className="col-sm-4 sponsor-logo-sm">
+              </div> */}
+              {/* <div className="col-sm-4 sponsor-logo-sm">
                 <img
                   src="/assets/Logos 2020/GoGo Logo.jpg "
                   alt="sponsor-logo"
                   className="sponsor-logo-img-sm"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <form action="mailto:sfhacksteam@gmail.com" method="GET">

@@ -437,18 +437,25 @@ h1 {
 }
 .sponsor-logo-lg {
   height: 35vh;
-  padding-top: 5px;
-  padding-bottom: 5px;
+
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 2px;
+  padding-bottom: 0px;
 }
 .sponsor-logo-md {
   height: 20vh;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 2px;
+  padding-bottom: 0px;
 }
 .sponsor-logo-sm {
   height: 15vh;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 2px;
+  padding-bottom: 0px;
 }
 
 .h1spo {
