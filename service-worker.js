@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sfhacks2020.github.io/precache-manifest.7dd1b9bd5aa9edbbf9088e8e059a066e.js"
+  "/sfhacks2020.github.io/precache-manifest.774444a1c351107eddc66d10b70f6457.js"
 );
 
 self.addEventListener('message', (event) => {

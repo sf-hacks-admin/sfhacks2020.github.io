@@ -117,6 +117,7 @@ class Home extends Component {
           <ModalBody style={{ background: "#b295c7" }}>
             {/* {"Dear Hacker,\nWe hope you are doing well!\nIn light of the COVID- 19, the San Francisco State University administration has decided to postpone all on-campus events, including SF Hacks 2020, for the time being. Our leadership team has worked extremely hard all year to bring SF Hacks 2020 to life, so this does come as a major disappointment for all of us. However, we do acknowledge that our event attracts 600 students from all over the country, and that this is the best decision for the safety and well-being of all parties involved, as that is our first and highest priority.That being said, although we have to cancel SF Hacks for end of March,we plan to reschedule the event to a later date. Please stay tuned forupdates. We will reach out to you once it is safe to travel again and wemanage to find an alternate date. SF Hacks 2020 will happen!\nWe understand that many students may have made travel arrangements in planning to attend this event. Many airlines have offered free cancellations in light of the current situation and we hope this will not cause you any inconvenience. Please feel free to reach out to the SF Hacks team at sfhacksteam@gmail.com with any questions. Thank you for your understanding, and stay safe!\nBest,\nSF Hacks \n"} */}
             Dear Hacker, <br />
+            <br />
             We hope you are doing well!
             <br /> In light of the COVID- 19, the San Francisco State University
             administration has decided to postpone all on-campus events,
@@ -138,6 +139,7 @@ class Home extends Component {
             hope this will not cause you any inconvenience. Please feel free to
             reach out to the SF Hacks team at sfhacksteam@gmail.com with any
             questions. Thank you for your understanding, and stay safe!
+            <br />
             <br /> Best,
             <br /> SF Hacks
           </ModalBody>
