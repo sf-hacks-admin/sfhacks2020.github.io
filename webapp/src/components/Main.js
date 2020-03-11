@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Nbar from "./Nbar";
 import Home from "./Home";
 import About from "./About";
@@ -40,7 +41,6 @@ class Main extends Component {
         </div>
 
         <Footer />
-        
       </div>
     );
   }
